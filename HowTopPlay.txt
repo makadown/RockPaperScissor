@@ -1,0 +1,28 @@
+
+En la pantalla principal se pueden ver dos spinners para seleccionar qué jugador esar usando, el player 1 seria el dueno del celular y el player 2 otra persona u el CPU (PC).
+En la parte inferior se ven las 3 imagenes correspondientes a piedra, papel o tijera
+
+======= Jugador vs PC
+El jugador hace tap en una de las imagenes. En la imagen central aparecerá la opción que el CPU eligió aleatoreamente y dará el resultado.
+
+======= Jugador  vs Jugador 
+El jugador 1 hace tap en una de las imagenes, sin que la otra persona vea. Éste jugador le presta el dispositivo al jugador 2 para que éste haga tap en su selección. El juego mostrará el resultado.
+
+En la parte superior derecha se puede hacer tap para mostrar un menú y seleccionar una de las siguientes opciones:
+
+> Score: Muestra la estadística de juegos de todos los jugadores (Excepto CPU) acumulada. 
+> Settings: Se podrá crear un nombre de jugador nuevo para almacenarlo y poder seleccionarlo en los spinners de la pantalla principal para que juegue y tenga sus propias estadísticas.
+> Help: La presente pantalla
+
+Estando en cualquiera de estas tres pantallas, el menú cambiará y mostrará la opción [New Game] para regresar a la pantalla principal seleccionando ésta opción o haciendo tap en el back de dispositivo.
+
+NOTA: la cantidad de juegos y estadísticas para la CPU se consideró no apreciable, por lo que no se incluyen sus registros.
+      Sin embargo, en versiones posteriores se podría contemplar la opción.
+
+
+== Bugs conocidos por corregir en futuras versiones:
+* El spinner de player 1 y player 2 pueden tener el nombre del mismo jugador...
+* Cuando se usa PC no se respeta un lapso de tiempo para ver bien cada jugada.
+
+
+  

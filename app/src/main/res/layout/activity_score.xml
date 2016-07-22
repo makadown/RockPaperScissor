@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eduar.rockpaperscissor.score">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" >
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dip">
+            <TextView
+                android:text="Name"
+                android:id="@+id/playerTitle"
+                android:layout_width="35pt"
+                android:textAlignment="textStart"
+                android:padding="4dp"/>
+            <TextView
+                android:text="Wins"
+                android:id="@+id/playerWins"
+                android:layout_width="25pt"
+                android:textAlignment="textStart"
+
+                android:padding="4dp"/>
+            <TextView
+                android:text="Loses"
+                android:id="@+id/playerLoses"
+                android:layout_width="25pt"
+                android:textAlignment="textStart"
+
+                android:padding="4dp"/>
+            <TextView
+                android:text="Ties"
+                android:id="@+id/playerTies"
+                android:layout_width="25pt"
+                android:textAlignment="textStart"
+
+                android:padding="4dp"/>
+            <TextView
+                android:text="Total"
+                android:id="@+id/playerTotal"
+                android:layout_width="20pt"
+                android:textAlignment="textStart"
+
+                android:padding="4dp"/>
+        </TableRow>
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

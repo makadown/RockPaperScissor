@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.eduar.rockpaperscissor.Help">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollViewHelp"
+
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Cómo jugar"
+                android:id="@+id/txtComo"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="En la pantalla principal se pueden ver dos spinners para seleccionar qué jugador esar usando, el player 1 seria el dueno del celular y el player 2 otra persona u el CPU (PC).
+En la parte inferior se ven las 3 imagenes correspondientes a piedra, papel o tijera"
+                android:id="@+id/textView3"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help01"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="======= Jugador vs PC \n
+El jugador hace tap en una de las imagenes. En la imagen central aparecerá la opción que el CPU eligió aleatoriamente y dará el resultado."
+                android:id="@+id/textView4"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help02"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="======= Jugador  vs Jugador \n
+El jugador 1 hace tap en una de las imagenes, sin que la otra persona vea.
+Éste jugador le presta el dispositivo al jugador 2 para que éste haga tap en su selección. El juego mostrará el resultado."
+                android:id="@+id/textView5"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help03"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="En la parte superior derecha se puede hacer tap para mostrar un menú y seleccionar una de las siguientes opciones:"
+                android:id="@+id/textView6"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help04"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="> Score: Muestra la estadística de juegos de todos los jugadores (Excepto CPU) acumulada. "
+                android:id="@+id/textView7"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help05"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="> Settings: Se podrá crear un nombre de jugador nuevo para almacenarlo y poder seleccionarlo en los spinners de la pantalla principal para que juegue y tenga sus propias estadísticas. "
+                android:id="@+id/textView8"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView7"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help06"
+                android:layout_alignParentStart="true" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView8"
+                android:layout_centerVertical="true"
+                android:src="@drawable/help07"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="> Help: La presente pantalla
+\n\n\n
+Estando en cualquiera de estas tres pantallas, el menú cambiará y mostrará la opción [New Game] para regresar a la pantalla principal seleccionando ésta opción o haciendo tap en el back de dispositivo.
+\n\n\n
+NOTA: la cantidad de juegos y estadísticas para la CPU se consideró no apreciable, por lo que no se incluyen sus registros.
+      Sin embargo, en versiones posteriores se podría contemplar la opción.
+
+\n\n\n
+== Bugs conocidos por corregir en futuras versiones:
+\n\n
+* El spinner de player 1 y player 2 pueden tener el nombre del mismo jugador...
+\n
+* Cuando se usa PC no se respeta un lapso de tiempo para ver bien cada jugada. \n\n"
+
+                android:id="@+id/textView9"
+                android:layout_alignTop="@+id/scrollViewHelp"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="39dp"
+                android:textAlignment="inherit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
